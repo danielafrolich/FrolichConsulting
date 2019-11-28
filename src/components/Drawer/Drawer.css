@@ -1,0 +1,38 @@
+.drawer{
+  height: 100%;
+  background: white;
+  box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.drawer ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/*TODO: DEF BLACKS*/
+.drawer a{
+  text-decoration: none;
+  color: black;
+}
+
+.drawer li{
+  margin: 0.5rem 0;
+}
+
+.drawer.open{
+  transform: translateX(0);
+}
+
+@media (min-width: 769px){
+  .drawer{
+    display: none;
+  }
+}

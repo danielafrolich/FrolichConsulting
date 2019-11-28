@@ -13,8 +13,7 @@ class InputForm extends React.Component{
         <TextField id="filled-basic" label="Message" variant="filled" />
       </form>
       <Button variant="contained" color="primary">SEND</Button>
-      </div>)
-      ;
+      </div>);
   }
 
 }
