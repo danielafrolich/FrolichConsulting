@@ -5,6 +5,8 @@ import Button from '@material-ui/core/Button'
 import Navbar from "./components/Navbar/Navbar"
 import Drawer from "./components/Drawer/Drawer"
 import Backdrop from "./components/Backdrop/Backdrop"
+import AboutSection from "./components/AboutSection"
+
 
 class App extends Component {
   state = {
@@ -36,12 +38,11 @@ class App extends Component {
         <main>
           <section className="home">
             <LandingText></LandingText>
-            <Button>SEE MORE</Button>
-          </section>
-          <section className="about">
+            <Button className="bottom-aligned">SEE MORE</Button>
           </section>
           <section className="work">
           </section>
+          <AboutSection />
           <section className="contact">
             <InputForm />
           </section>

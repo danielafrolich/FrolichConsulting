@@ -7,7 +7,7 @@
 }
 
 .navbar-navigation{
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   height: 100%;
   align-items: center;
@@ -17,6 +17,11 @@
 .navbar-logo{
   margin-right: auto;
   margin-left: 1rem;
+}
+
+.navbar-logo img{
+  heigh: 80%;
+  width: 80%;
 }
 
 .navbar-navigation ul{

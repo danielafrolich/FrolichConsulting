@@ -29,8 +29,19 @@ main{
 h1{
   color: white;
   font-weight: 700;
+  font-size: 38px;
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+h2{
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+p{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 /* Buttons */
@@ -48,12 +59,23 @@ button{
 
 /* Utils */
 .center-vertical{
-  width: 30%;
-  height: 100%;
+  width: 50%;
   margin: 0 auto;
 }
 
-/*TODO: FIXA DENNA*/
 .center-horizontal{
-  padding-top: 300px;
+  padding-top: 50vh;
+}
+
+.bottom-aligned{
+  position: absolute !important;
+  bottom: 10px;
+}
+
+.flex{
+  display: flex;
+}
+
+.align-items{
+  align-items: center;
 }

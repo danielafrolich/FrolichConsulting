@@ -8,7 +8,6 @@ class LandingText extends React.Component{
       </div>
     );
   }
-
 }
 
 export default LandingText;
