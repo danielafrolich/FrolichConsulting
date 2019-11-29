@@ -19,3 +19,9 @@
   width: 30px;
   background: white;
 }
+
+@media (min-width: 769px){
+  .hamburgerMenu-button{
+    display: none !important;
+  }
+}

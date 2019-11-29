@@ -7,3 +7,9 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+
+@media (min-width: 769px){
+  .backdrop{
+    display: none;
+  }
+}

@@ -40,9 +40,9 @@ class App extends Component {
             <LandingText></LandingText>
             <Button className="bottom-aligned">SEE MORE</Button>
           </section>
+          <AboutSection />
           <section className="work">
           </section>
-          <AboutSection />
           <section className="contact">
             <InputForm />
           </section>

@@ -55,10 +55,6 @@
 }
 
 @media (min-width: 769px){
-  .hamburgerMenu-button{
-    display: none;
-  }
-
   .navbar-logo{
     margin-left: 0;
   }

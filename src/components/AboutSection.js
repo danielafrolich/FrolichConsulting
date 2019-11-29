@@ -9,23 +9,26 @@ import IconText from "./IconText"
 class LandingText extends React.Component{
   render(){
     return(
-      <section className="about flex align-items">
+      <section className="about">
         <div>
-          <img alt="Picture of Isabelle Frolich" src={profilePic}/>
+          <h1>About</h1>
         </div>
-        <div>
-          <IconText icon={degree} alt="Icon of degree"
-            text="MSc in Software Engineering Chalmers University of Technology">
-          </IconText>
-          <IconText icon={briefcase} alt="Icon of briefcase"
-            text="Over 3 years experience of working in agile teams and using Git and Jira for collaboration">
-          </IconText>
-          <IconText icon={code} alt="Icon of code"
-          text="Knowledge in Java, Kotlin, Python, MySql and many others">
-          </IconText>
-          <IconText icon={resume} alt="Icon of resume"
-            text="Read my resume or visit Linkedin profile for more details">
-          </IconText>
+        <div className="flex align-items">
+          <img alt="Isabelle Frolich" src={profilePic}/>
+          <div className="ml-2">
+            <IconText icon={degree} alt="Icon of degree"
+              text="MSc in Software Engineering Chalmers University of Technology">
+            </IconText>
+            <IconText icon={briefcase} alt="Icon of briefcase"
+              text="Over 3 years experience of working in agile teams and using Git and Jira for collaboration">
+            </IconText>
+            <IconText icon={code} alt="Icon of code"
+            text="Knowledge in Java, Kotlin, Python, MySql and many others">
+            </IconText>
+            <IconText icon={resume} alt="Icon of resume"
+              text="Read my resume or visit Linkedin profile for more details">
+            </IconText>
+          </div>
         </div>
       </section>
     );

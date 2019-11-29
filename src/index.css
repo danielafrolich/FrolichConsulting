@@ -27,7 +27,7 @@ main{
 
 /* Font styles */
 h1{
-  color: white;
+  color: rgba(0, 0, 0, 0.87);
   font-weight: 700;
   font-size: 38px;
   margin-block-start: 0;
@@ -56,6 +56,26 @@ button{
   text-align: center;
 }
 
+.home h1{
+  color: white;
+}
+
+/* About */
+.about{
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.work{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact{
+  width: 70%;
+  margin: 0 auto;
+}
 
 /* Utils */
 .center-vertical{
@@ -78,4 +98,12 @@ button{
 
 .align-items{
   align-items: center;
+}
+
+.ml-1{
+  margin-left: 1em;
+}
+
+.ml-2{
+  margin-left: 2em;
 }

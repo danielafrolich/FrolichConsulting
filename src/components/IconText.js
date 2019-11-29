@@ -4,7 +4,7 @@ function IconText(props) {
     return (
       <div className="flex">
         <img alt={props.alt} src={props.icon} />
-        <p>{props.text}</p>
+        <p className="ml-1">{props.text}</p>
       </div>
   );
 }
