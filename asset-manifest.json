@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/FrolichConsulting/static/css/main.63432da3.chunk.css",
-    "main.js": "/FrolichConsulting/static/js/main.dcc17300.chunk.js",
-    "main.js.map": "/FrolichConsulting/static/js/main.dcc17300.chunk.js.map",
+    "main.css": "/FrolichConsulting/static/css/main.cf4a80ab.chunk.css",
+    "main.js": "/FrolichConsulting/static/js/main.8d474d77.chunk.js",
+    "main.js.map": "/FrolichConsulting/static/js/main.8d474d77.chunk.js.map",
     "runtime-main.js": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js",
     "runtime-main.js.map": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js.map",
-    "static/js/2.5f27d5f5.chunk.js": "/FrolichConsulting/static/js/2.5f27d5f5.chunk.js",
-    "static/js/2.5f27d5f5.chunk.js.map": "/FrolichConsulting/static/js/2.5f27d5f5.chunk.js.map",
+    "static/js/2.f8bba939.chunk.js": "/FrolichConsulting/static/js/2.f8bba939.chunk.js",
+    "static/js/2.f8bba939.chunk.js.map": "/FrolichConsulting/static/js/2.f8bba939.chunk.js.map",
     "index.html": "/FrolichConsulting/index.html",
-    "precache-manifest.d99c8c1d7c787139ffb2e5ebd83babd4.js": "/FrolichConsulting/precache-manifest.d99c8c1d7c787139ffb2e5ebd83babd4.js",
+    "precache-manifest.3899f97e922bed6dd666d2fec4a2afe8.js": "/FrolichConsulting/precache-manifest.3899f97e922bed6dd666d2fec4a2afe8.js",
     "service-worker.js": "/FrolichConsulting/service-worker.js",
-    "static/css/main.63432da3.chunk.css.map": "/FrolichConsulting/static/css/main.63432da3.chunk.css.map",
+    "static/css/main.cf4a80ab.chunk.css.map": "/FrolichConsulting/static/css/main.cf4a80ab.chunk.css.map",
+    "static/media/ai.png": "/FrolichConsulting/static/media/ai.40dcbc1b.png",
     "static/media/index.css": "/FrolichConsulting/static/media/background.1e0b19a0.png",
     "static/media/briefcase.svg": "/FrolichConsulting/static/media/briefcase.c9cb0310.svg",
+    "static/media/cap_gemini.png": "/FrolichConsulting/static/media/cap_gemini.e80cabd1.png",
     "static/media/code.svg": "/FrolichConsulting/static/media/code.1581aaf8.svg",
-    "static/media/degree.svg": "/FrolichConsulting/static/media/degree.ba31da26.svg",
+    "static/media/degree.svg": "/FrolichConsulting/static/media/degree.92fd111d.svg",
     "static/media/logo.svg": "/FrolichConsulting/static/media/logo.3526fc5a.svg",
     "static/media/profile_pic.png": "/FrolichConsulting/static/media/profile_pic.c3f20668.png",
-    "static/media/resume.svg": "/FrolichConsulting/static/media/resume.c5d9df01.svg"
+    "static/media/resume.svg": "/FrolichConsulting/static/media/resume.ca6054de.svg",
+    "static/media/telia.png": "/FrolichConsulting/static/media/telia.1570e7b0.png",
+    "static/media/volvo.png": "/FrolichConsulting/static/media/volvo.c3286874.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eedf86b4.js",
-    "static/js/2.5f27d5f5.chunk.js",
-    "static/css/main.63432da3.chunk.css",
-    "static/js/main.dcc17300.chunk.js"
+    "static/js/2.f8bba939.chunk.js",
+    "static/css/main.cf4a80ab.chunk.css",
+    "static/js/main.8d474d77.chunk.js"
   ]
 }
