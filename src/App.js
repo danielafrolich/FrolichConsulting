@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import LandingText from "./components/LandingText"
-import InputForm from "./components/InputForm"
-import Button from '@material-ui/core/Button'
 import Navbar from "./components/Navbar/Navbar"
 import Drawer from "./components/Drawer/Drawer"
 import Backdrop from "./components/Backdrop/Backdrop"
 import AboutSection from "./components/AboutSection"
-
+import WorkSection from "./components/WorkSection"
+import ContactSection from "./components/ContactSection"
+import HomeSection from "./components/HomeSection"
+import ReactPageScroller from "react-page-scroller";
 
 class App extends Component {
   state = {
@@ -36,16 +36,10 @@ class App extends Component {
         <Drawer show={this.state.drawerOpen}/>
         {backdrop}
         <main>
-          <section className="home">
-            <LandingText></LandingText>
-            <Button className="bottom-aligned">SEE MORE</Button>
-          </section>
+          <HomeSection />
           <AboutSection />
-          <section className="work">
-          </section>
-          <section className="contact">
-            <InputForm />
-          </section>
+          <WorkSection />
+          <ContactSection />
         </main>
       </div>
     );

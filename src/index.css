@@ -21,6 +21,11 @@ html{
   height: 100%;
 }
 
+section{
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
 main{
   height: 100%;
 }
@@ -32,6 +37,7 @@ h1{
   font-size: 38px;
   margin-block-start: 0;
   margin-block-end: 0;
+  margin-bottom: 1em;
 }
 
 h2{
@@ -44,6 +50,22 @@ p{
   color: rgba(0, 0, 0, 0.7);
 }
 
+/* Text animation */ TODO Get this working
+/* div h1{
+  -webkit-animation: textAnimation 1s forwards 0s ease;
+}
+
+@-webkit-keyframes textAnimation{
+  0%{
+    transform: rotate(0) translateY(-15%);
+    opacity: 0;
+  }
+  100%{
+    transform: rotate(0) translateY(0);
+    opacity: 1;
+  }
+} */
+
 /* Buttons */
 button{
   font-family: 'Karla', sans-serif !important;
@@ -54,6 +76,7 @@ button{
   background-image: url("images/background.png");
   height: 100%;
   text-align: center;
+  margin: 0;
 }
 
 .home h1{
@@ -62,19 +85,21 @@ button{
 
 /* About */
 .about{
-  height: 100%;
   width: 70%;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .work{
   width: 70%;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .contact{
   width: 70%;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Utils */

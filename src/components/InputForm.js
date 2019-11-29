@@ -5,14 +5,19 @@ import TextField from '@material-ui/core/TextField';
 class InputForm extends React.Component{
   render(){
     return(
-      <div>
       <form noValidate autoComplete="off">
-        <TextField id="filled-basic" label="Name" variant="filled" />
-        <TextField id="filled-basic" label="Email" variant="filled" />
+        <div>
+          <TextField id="filled-basic" label="Name" variant="filled" />
+        </div>
+        <div>
+          <TextField id="filled-basic" label="Email" variant="filled" />
+        </div>
+        <div>
         <TextField id="filled-basic" label="Message" variant="filled" />
+        </div>
+        <Button variant="contained" color="primary">SEND</Button>
       </form>
-      <Button variant="contained" color="primary">SEND</Button>
-      </div>);
+    );
   }
 
 }
