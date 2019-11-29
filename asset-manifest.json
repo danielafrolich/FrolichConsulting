@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FrolichConsulting/static/css/main.339b7319.chunk.css",
+    "main.js": "/FrolichConsulting/static/js/main.67411091.chunk.js",
+    "main.js.map": "/FrolichConsulting/static/js/main.67411091.chunk.js.map",
+    "runtime-main.js": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js",
+    "runtime-main.js.map": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js.map",
+    "static/js/2.03e03fa6.chunk.js": "/FrolichConsulting/static/js/2.03e03fa6.chunk.js",
+    "static/js/2.03e03fa6.chunk.js.map": "/FrolichConsulting/static/js/2.03e03fa6.chunk.js.map",
+    "index.html": "/FrolichConsulting/index.html",
+    "precache-manifest.1328ca8dbdfa580a788c30857bb64e9a.js": "/FrolichConsulting/precache-manifest.1328ca8dbdfa580a788c30857bb64e9a.js",
+    "service-worker.js": "/FrolichConsulting/service-worker.js",
+    "static/css/main.339b7319.chunk.css.map": "/FrolichConsulting/static/css/main.339b7319.chunk.css.map",
+    "static/media/index.css": "/FrolichConsulting/static/media/background.1e0b19a0.png",
+    "static/media/briefcase.svg": "/FrolichConsulting/static/media/briefcase.03bad0f9.svg",
+    "static/media/code.svg": "/FrolichConsulting/static/media/code.1581aaf8.svg",
+    "static/media/degree.svg": "/FrolichConsulting/static/media/degree.ba31da26.svg",
+    "static/media/logo.svg": "/FrolichConsulting/static/media/logo.3526fc5a.svg",
+    "static/media/profile_pic.png": "/FrolichConsulting/static/media/profile_pic.c3f20668.png",
+    "static/media/resume.svg": "/FrolichConsulting/static/media/resume.c5d9df01.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eedf86b4.js",
+    "static/js/2.03e03fa6.chunk.js",
+    "static/css/main.339b7319.chunk.css",
+    "static/js/main.67411091.chunk.js"
+  ]
+}
