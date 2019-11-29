@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03caeab26d3c3c84c0f78e3e383bc305",
+    "revision": "519d373bcdbe6ba3d8e05d840f633ff0",
     "url": "/FrolichConsulting/index.html"
   },
   {
-    "revision": "d699221073f2193d6713",
-    "url": "/FrolichConsulting/static/css/main.339b7319.chunk.css"
+    "revision": "a92ed66d859178fb0949",
+    "url": "/FrolichConsulting/static/css/main.63432da3.chunk.css"
   },
   {
-    "revision": "05347abd8480d3edd0d9",
-    "url": "/FrolichConsulting/static/js/2.03e03fa6.chunk.js"
+    "revision": "afce3c51e0e3ae11a7b0",
+    "url": "/FrolichConsulting/static/js/2.5f27d5f5.chunk.js"
   },
   {
-    "revision": "d699221073f2193d6713",
-    "url": "/FrolichConsulting/static/js/main.67411091.chunk.js"
+    "revision": "a92ed66d859178fb0949",
+    "url": "/FrolichConsulting/static/js/main.dcc17300.chunk.js"
   },
   {
     "revision": "e02e402192e260c5e09d",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrolichConsulting/static/media/background.1e0b19a0.png"
   },
   {
-    "revision": "03bad0f9a170ac75f29cef9f6d1ba341",
-    "url": "/FrolichConsulting/static/media/briefcase.03bad0f9.svg"
+    "revision": "c9cb0310090e3d4d4933580ee8e1e540",
+    "url": "/FrolichConsulting/static/media/briefcase.c9cb0310.svg"
   },
   {
     "revision": "1581aaf8efba389cb4b5b026905c0bed",
