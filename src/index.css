@@ -22,8 +22,8 @@ html{
 }
 
 section{
-  margin-top: 6em;
-  margin-bottom: 6em;
+  padding-top: 6em;
+  padding-bottom: 6em;
 }
 
 main{
@@ -77,35 +77,42 @@ button{
   height: 100%;
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 .home h1{
   color: white;
+  margin-bottom: 0;
 }
 
-/* About */
-.about{
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
+@media (max-width: 768px){
+  .block{
+    display: block !important;
+  }
 }
+
+/* Work */
 
 .work{
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.contact{
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
+  background-color: #F9F9F9;
 }
 
 /* Utils */
 .center-vertical{
   width: 50%;
   margin: 0 auto;
+}
+
+.centered-content{
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+@media (max-width: 768px){
+  .centered-content{
+    width: 90%;
+  }
 }
 
 .center-horizontal{
@@ -131,4 +138,22 @@ button{
 
 .ml-2{
   margin-left: 2em;
+}
+
+.mb-2{
+  margin-bottom: 2em;
+}
+
+.mt-2{
+  margin-top: 2em;
+}
+
+.w-40{
+  width: 40%;
+}
+
+@media (max-width: 768px){
+  .w-40{
+    width: 100%;
+  }
 }

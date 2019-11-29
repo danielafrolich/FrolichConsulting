@@ -9,11 +9,11 @@ import IconText from "./IconText"
 class LandingText extends React.Component{
   render(){
     return(
-      <section className="about">
+      <section className="about centered-content">
         <div>
           <h1>About</h1>
         </div>
-        <div className="flex align-items">
+        <div className="flex align-items block">
           <img alt="Isabelle Frolich" src={profilePic}/>
           <div className="ml-2">
             <IconText icon={degree} alt="Icon of degree"

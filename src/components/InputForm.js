@@ -6,14 +6,15 @@ class InputForm extends React.Component{
   render(){
     return(
       <form noValidate autoComplete="off">
-        <div>
-          <TextField id="filled-basic" label="Name" variant="filled" />
+        <div className="mb-2 mt-2 w-40">
+          <TextField id="filled-basic" label="Name" variant="filled" fullWidth multiline/>
         </div>
-        <div>
-          <TextField id="filled-basic" label="Email" variant="filled" />
+        <div className="mb-2 w-40">
+          <TextField id="filled-basic" label="Email" variant="filled" fullWidth multiline/>
         </div>
-        <div>
-        <TextField id="filled-basic" label="Message" variant="filled" />
+        <div className="mb-2">
+        <TextField id="filled-basic" label="Message" variant="filled" fullWidth multiline
+          rows="8" />
         </div>
         <Button variant="contained" color="primary">SEND</Button>
       </form>

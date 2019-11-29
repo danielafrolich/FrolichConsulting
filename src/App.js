@@ -6,7 +6,6 @@ import AboutSection from "./components/AboutSection"
 import WorkSection from "./components/WorkSection"
 import ContactSection from "./components/ContactSection"
 import HomeSection from "./components/HomeSection"
-import ReactPageScroller from "react-page-scroller";
 
 class App extends Component {
   state = {
@@ -40,6 +39,10 @@ class App extends Component {
           <AboutSection />
           <WorkSection />
           <ContactSection />
+          {/*
+            TODO: Footern ska inte vara i main.
+          */}
+          <footer><p>© {(new Date().getFullYear())} Frolich Consulting</p></footer>
         </main>
       </div>
     );
