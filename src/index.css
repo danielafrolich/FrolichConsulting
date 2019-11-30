@@ -71,13 +71,16 @@ button{
   font-family: 'Karla', sans-serif !important;
 }
 
+/*LINKS*/
+a{
+  cursor: pointer;
+}
+
 /* HOME */ /*TODO* BYT UT BILD*/
 .home{
   background-image: url("images/background.png");
   height: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 .home h1{
@@ -156,4 +159,8 @@ button{
   .w-40{
     width: 100%;
   }
+}
+
+.active{
+  color: red !important;
 }

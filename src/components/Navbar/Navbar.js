@@ -3,6 +3,7 @@ import HamburgerMenuButton from "../Drawer/HamburgerMenuButton"
 import logo from "../../images/logo.svg";
 import "./Navbar.css"
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar(props) {
   const [change, setChange] = useState(false);
@@ -36,10 +37,54 @@ function Navbar(props) {
           </div>
           <div className="navbar-navigation-items">
             <ul>
-              <li><a href="/">HOME</a></li>
-              <li><a href="/">ABOUT</a></li>
-              <li><a href="/">WORK</a></li>
-              <li><a href="/">CONTACT</a></li>
+              <li>
+              <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                HOME
+              </Link>
+              </li>
+              <li>
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                ABOUT
+              </Link>
+              </li>
+              <li>
+              <Link
+                activeClass="active"
+                to="work"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                WORK
+              </Link>
+              </li>
+              <li>
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                CONTACT
+              </Link>
+              </li>
             </ul>
           </div>
       </nav>
