@@ -104,6 +104,14 @@ a{
 /* About */
 .about .img-profile{
   height: 100%;
+  width: 100%;
+  max-width: 450px;
+}
+
+@media (max-width: 768px){
+  .ml-2{
+    margin-left: 0 !important;
+  }
 }
 
 /* Utils */
