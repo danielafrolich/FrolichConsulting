@@ -81,6 +81,8 @@ a{
   background-image: url("images/background.png");
   height: 100%;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .home h1{
@@ -95,9 +97,13 @@ a{
 }
 
 /* Work */
-
 .work{
   background-color: #F9F9F9;
+}
+
+/* About */
+.about .img-profile{
+  height: 100%;
 }
 
 /* Utils */
@@ -159,8 +165,4 @@ a{
   .w-40{
     width: 100%;
   }
-}
-
-.active{
-  color: red !important;
 }

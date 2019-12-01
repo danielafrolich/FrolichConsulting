@@ -14,7 +14,7 @@ class LandingText extends React.Component{
           <h1>About</h1>
         </div>
         <div className="flex align-items block">
-          <img alt="Isabelle Frolich" src={profilePic}/>
+          <img alt="Isabelle Frolich" src={profilePic} className="img-profile"/>
           <div className="ml-2">
             <IconText icon={degree} alt="Icon of degree"
               text="MSc in Software Engineering Chalmers University of Technology">

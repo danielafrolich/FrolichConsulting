@@ -58,3 +58,8 @@
     margin-left: 0;
   }
 }
+
+.active{
+  box-shadow: 0 -0.5em #4200FF inset;
+  font-weight: 700;
+}
