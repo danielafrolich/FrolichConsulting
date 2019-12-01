@@ -45,6 +45,8 @@ function Navbar(props) {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                tabIndex={0}
+                href="/"
               >
                 HOME
               </Link>
@@ -57,6 +59,8 @@ function Navbar(props) {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                tabIndex={0}
+                href="/"
               >
                 ABOUT
               </Link>
@@ -69,6 +73,8 @@ function Navbar(props) {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                tabIndex={0}
+                href="/"
               >
                 WORK
               </Link>
@@ -81,6 +87,8 @@ function Navbar(props) {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                tabIndex={0}
+                href="/"
               >
                 CONTACT
               </Link>
