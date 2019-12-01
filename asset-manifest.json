@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FrolichConsulting/static/css/main.47b25222.chunk.css",
+    "main.css": "/FrolichConsulting/static/css/main.c77ddc52.chunk.css",
     "main.js": "/FrolichConsulting/static/js/main.55010a8f.chunk.js",
     "main.js.map": "/FrolichConsulting/static/js/main.55010a8f.chunk.js.map",
     "runtime-main.js": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js",
@@ -8,9 +8,9 @@
     "static/js/2.11ea7faa.chunk.js": "/FrolichConsulting/static/js/2.11ea7faa.chunk.js",
     "static/js/2.11ea7faa.chunk.js.map": "/FrolichConsulting/static/js/2.11ea7faa.chunk.js.map",
     "index.html": "/FrolichConsulting/index.html",
-    "precache-manifest.d7cfe4324b4a0ce093f4236a24aec742.js": "/FrolichConsulting/precache-manifest.d7cfe4324b4a0ce093f4236a24aec742.js",
+    "precache-manifest.8a19b390582d1a82dfea6a5a1ffdaf50.js": "/FrolichConsulting/precache-manifest.8a19b390582d1a82dfea6a5a1ffdaf50.js",
     "service-worker.js": "/FrolichConsulting/service-worker.js",
-    "static/css/main.47b25222.chunk.css.map": "/FrolichConsulting/static/css/main.47b25222.chunk.css.map",
+    "static/css/main.c77ddc52.chunk.css.map": "/FrolichConsulting/static/css/main.c77ddc52.chunk.css.map",
     "static/media/ai.png": "/FrolichConsulting/static/media/ai.40dcbc1b.png",
     "static/media/index.css": "/FrolichConsulting/static/media/background.1e0b19a0.png",
     "static/media/briefcase.svg": "/FrolichConsulting/static/media/briefcase.c9cb0310.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.eedf86b4.js",
     "static/js/2.11ea7faa.chunk.js",
-    "static/css/main.47b25222.chunk.css",
+    "static/css/main.c77ddc52.chunk.css",
     "static/js/main.55010a8f.chunk.js"
   ]
 }
