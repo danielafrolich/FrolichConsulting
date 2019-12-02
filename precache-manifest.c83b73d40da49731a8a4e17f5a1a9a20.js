@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8de4a670e12f7d6cdbb8c2cf0cfffbe1",
+    "revision": "6a5e48e8c625342e50ad3fb28345fd24",
     "url": "/FrolichConsulting/index.html"
   },
   {
-    "revision": "606fc0a515352f3cb2d8",
-    "url": "/FrolichConsulting/static/css/main.3dc742d8.chunk.css"
+    "revision": "68a05df8b9e77f1e30d1",
+    "url": "/FrolichConsulting/static/css/main.a95979b7.chunk.css"
   },
   {
-    "revision": "9da01dd2971fd9b4ecb1",
-    "url": "/FrolichConsulting/static/js/2.8191be1f.chunk.js"
+    "revision": "ab3c6ffa65a4cf236789",
+    "url": "/FrolichConsulting/static/js/2.03232bc4.chunk.js"
   },
   {
-    "revision": "606fc0a515352f3cb2d8",
-    "url": "/FrolichConsulting/static/js/main.3e913191.chunk.js"
+    "revision": "68a05df8b9e77f1e30d1",
+    "url": "/FrolichConsulting/static/js/main.4c732256.chunk.js"
   },
   {
     "revision": "e02e402192e260c5e09d",
