@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9d5d68e7c8bda192a5b2a204f141267",
+    "revision": "8de4a670e12f7d6cdbb8c2cf0cfffbe1",
     "url": "/FrolichConsulting/index.html"
   },
   {
-    "revision": "2fb81805af6bdaa5567d",
-    "url": "/FrolichConsulting/static/css/main.c77ddc52.chunk.css"
+    "revision": "606fc0a515352f3cb2d8",
+    "url": "/FrolichConsulting/static/css/main.3dc742d8.chunk.css"
   },
   {
-    "revision": "a4ff5f381e40f6ca516b",
-    "url": "/FrolichConsulting/static/js/2.11ea7faa.chunk.js"
+    "revision": "9da01dd2971fd9b4ecb1",
+    "url": "/FrolichConsulting/static/js/2.8191be1f.chunk.js"
   },
   {
-    "revision": "2fb81805af6bdaa5567d",
-    "url": "/FrolichConsulting/static/js/main.55010a8f.chunk.js"
+    "revision": "606fc0a515352f3cb2d8",
+    "url": "/FrolichConsulting/static/js/main.3e913191.chunk.js"
   },
   {
     "revision": "e02e402192e260c5e09d",
     "url": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js"
   },
   {
-    "revision": "40dcbc1b3c01e2f26a961dd4363468d7",
-    "url": "/FrolichConsulting/static/media/ai.40dcbc1b.png"
+    "revision": "b08a8d0ecdaee23dd2ee1b4420a6e918",
+    "url": "/FrolichConsulting/static/media/ai.b08a8d0e.png"
   },
   {
     "revision": "1e0b19a05dcb71b48171b0a3e558c1b9",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrolichConsulting/static/media/briefcase.c9cb0310.svg"
   },
   {
-    "revision": "e80cabd1b391f44a225e13f4d4a4efb6",
-    "url": "/FrolichConsulting/static/media/cap_gemini.e80cabd1.png"
+    "revision": "3296c0302ebb6cfad7abe3613e2a101e",
+    "url": "/FrolichConsulting/static/media/cap_gemini.3296c030.png"
   },
   {
     "revision": "1581aaf8efba389cb4b5b026905c0bed",
@@ -56,11 +56,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrolichConsulting/static/media/resume.ca6054de.svg"
   },
   {
-    "revision": "1570e7b0db689784f6339c91800785bd",
-    "url": "/FrolichConsulting/static/media/telia.1570e7b0.png"
+    "revision": "17004086cbf04b3dc771931abb7a0828",
+    "url": "/FrolichConsulting/static/media/telia.17004086.png"
   },
   {
-    "revision": "c3286874b6aab06313e99631a8a08d0a",
-    "url": "/FrolichConsulting/static/media/volvo.c3286874.png"
+    "revision": "e25d5e532572f5933db13b25788f9d83",
+    "url": "/FrolichConsulting/static/media/volvo.e25d5e53.png"
   }
 ]);
