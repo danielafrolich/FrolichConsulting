@@ -25,9 +25,13 @@ class LandingText extends React.Component{
             <IconText icon={code} alt="Icon of code"
             text="Knowledge in Java, Kotlin, Python, MySql and many others">
             </IconText>
-            <IconText icon={resume} alt="Icon of resume"
-              text="Read my resume or visit Linkedin profile for more details">
-            </IconText>
+            <div className="flex">
+              <img alt="Icon of resume" src={resume} />
+              <p className="ml-1">
+              Read my
+              <a target="_blank" rel="noopener noreferrer" href="docs/CV_DanielaFrolich_Eng.pdf">resume</a>
+              or visit my <a target="_blank" rel="noopener noreferrer" href="wwww.linkedin.com">LinkedIn</a> for more details.</p>
+            </div>
           </div>
         </div>
       </section>

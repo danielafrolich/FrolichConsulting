@@ -11,7 +11,7 @@ class WorkSection extends React.Component{
       <section className="work">
         <div className="centered-content">
           <h1>Work</h1>
-          <p>Here is a selection of my work experience. For more details see my resume.</p>
+          <p>Here is a selection of my work experience. For more details see my <a target="_blank" rel="noopener noreferrer" href="docs/CV_DanielaFrolich_Eng.pdf">resume</a>.</p>
           <Card
           cardMedia={ai}
           alt="Artificial Intelligence"
