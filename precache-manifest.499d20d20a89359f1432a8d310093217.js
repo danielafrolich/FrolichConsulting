@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a5e48e8c625342e50ad3fb28345fd24",
+    "revision": "c52bbefd3797a7ea8b24fbfdbd2fc756",
     "url": "/FrolichConsulting/index.html"
   },
   {
-    "revision": "68a05df8b9e77f1e30d1",
-    "url": "/FrolichConsulting/static/css/main.a95979b7.chunk.css"
+    "revision": "9f4fd0fefc7975688d60",
+    "url": "/FrolichConsulting/static/css/main.c8fd33f1.chunk.css"
   },
   {
-    "revision": "ab3c6ffa65a4cf236789",
-    "url": "/FrolichConsulting/static/js/2.03232bc4.chunk.js"
+    "revision": "1b53db863b4d934404a7",
+    "url": "/FrolichConsulting/static/js/2.9dd184c7.chunk.js"
   },
   {
-    "revision": "68a05df8b9e77f1e30d1",
-    "url": "/FrolichConsulting/static/js/main.4c732256.chunk.js"
+    "revision": "9f4fd0fefc7975688d60",
+    "url": "/FrolichConsulting/static/js/main.83a8905f.chunk.js"
   },
   {
     "revision": "e02e402192e260c5e09d",
     "url": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js"
+  },
+  {
+    "revision": "3ce2b4eb3bef4ed3095879721a124838",
+    "url": "/FrolichConsulting/static/media/CV_DanielaFrolich_Eng.3ce2b4eb.pdf"
   },
   {
     "revision": "b08a8d0ecdaee23dd2ee1b4420a6e918",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "92fd111dc870841d6b28857cf936fb6b",
     "url": "/FrolichConsulting/static/media/degree.92fd111d.svg"
+  },
+  {
+    "revision": "eec16a50c740238b932eacaa7091cc02",
+    "url": "/FrolichConsulting/static/media/icon_link.eec16a50.svg"
   },
   {
     "revision": "3526fc5a0974f1bbcd8eb9fd73c1fdf2",
