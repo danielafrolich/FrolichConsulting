@@ -16,6 +16,17 @@ class InputForm extends React.Component{
     let isError = false;
     const errors = {};
 
+    // Check if the email is in the right form.
+    const regexp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    let validEmail = regexp.test(this.state.email);
+
+    if(!validEmail){
+      isError = true;
+      errors.emailHelperText = "This is not a valid email.";
+      this.state.emailError = true;
+    }
+
+    // Check if an email is provided.
     if(this.state.email.length < 1) {
       isError = true;
       errors.emailHelperText = "An email is required.";
@@ -90,6 +101,7 @@ class InputForm extends React.Component{
         </div>
         <div className="mb-2 w-40">
           <TextField
+            required
             type="email"
             id="filled-basic"
             helperText="Required"
