@@ -17,6 +17,7 @@ class HomeSection extends React.Component{
           duration={500}
           tabIndex={0}
           href="/"
+          className="a-clean"
           >
           SEE MORE
           </Link>

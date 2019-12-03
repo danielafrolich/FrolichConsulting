@@ -13,12 +13,19 @@
   width: 400px;
   height: 100%;
   border-radius: 4px 0 0 4px;
+  object-fit: cover;
 }
 
+.card-text img{
+  top: 8px;
+  position: relative;
+  margin-right: 4px;
+}
 
 @media (max-width: 1000px){
   .card-media img{
     width: 100%;
+    border-radius: 4px 4px 0 0;
   }
 
   .card-text{

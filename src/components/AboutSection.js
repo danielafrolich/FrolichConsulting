@@ -4,7 +4,8 @@ import briefcase from "../images/briefcase.svg";
 import code from "../images/code.svg";
 import resume from "../images/resume.svg";
 import profilePic from "../images/profile_pic.png";
-import IconText from "./IconText"
+import IconText from "./IconText";
+import resumePdf from "./../docs/CV_DanielaFrolich_Eng.pdf";
 
 class LandingText extends React.Component{
   render(){
@@ -28,9 +29,7 @@ class LandingText extends React.Component{
             <div className="flex">
               <img alt="Icon of resume" src={resume} />
               <p className="ml-1">
-              Read my
-              <a target="_blank" rel="noopener noreferrer" href="docs/CV_DanielaFrolich_Eng.pdf">resume</a>
-              or visit my <a target="_blank" rel="noopener noreferrer" href="wwww.linkedin.com">LinkedIn</a> for more details.</p>
+              Read my <a target="_blank" rel="noopener noreferrer" href={resumePdf}>resume</a> or visit my <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/isabelle-fr%C3%B6lich-65ba02b1/">LinkedIn</a> for more details</p>
             </div>
           </div>
         </div>
