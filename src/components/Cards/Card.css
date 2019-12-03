@@ -4,13 +4,12 @@
 }
 
 .card-text{
-  padding: 1em;
-  margin-left: 1%;
+  padding: 1.5em;
 }
 
 .card-media img{
   max-width: 90vw;
-  width: 400px;
+  width: 350px;
   height: 100%;
   border-radius: 4px 0 0 4px;
   object-fit: cover;

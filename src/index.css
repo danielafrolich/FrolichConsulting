@@ -41,6 +41,9 @@ h1{
 h2{
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 0.2em;
 }
 
 h3{
@@ -52,6 +55,8 @@ h3{
 p{
   font-size: 18px;
   color: rgba(0, 0, 0, 0.7);
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 /* Text animation */ TODO Get this working
@@ -188,6 +193,10 @@ a:hover{
 
 .ml-2{
   margin-left: 2em;
+}
+
+.mb-1{
+  margin-bottom: 1em;
 }
 
 .mb-2{

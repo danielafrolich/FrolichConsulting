@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from "./Card/Card"
+import Card from "./Cards/Card"
+import LinkCard from "./Cards/LinkCard"
 import ai from './../images/ai.png'
 import volvo from './../images/volvo.png'
 import capGemini from './../images/cap_gemini.png'
@@ -14,7 +15,7 @@ class WorkSection extends React.Component{
         <div className="centered-content">
           <h1>Work</h1>
           <p>Here is a selection of my work experience. For more details see my <a target="_blank" rel="noopener noreferrer" href={resumePdf}>resume</a>.</p>
-          <Card
+          <LinkCard
           cardMedia={ai}
           alt="Artificial Intelligence"
           cardHeader="Master Thesis in AI"
@@ -24,7 +25,7 @@ class WorkSection extends React.Component{
           linkText="Full report"
           linkHref="https://odr.chalmers.se/bitstream/20.500.12380/250233/1/250233.pdf"
           >
-          </Card>
+          </LinkCard>
           <Card
           cardMedia={telia}
           alt="Telia"
