@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Drawer.css"
-import useWindowScrollPosition from "@rehooks/window-scroll-position";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Drawer = props => {
   let drawerClasses = 'drawer';

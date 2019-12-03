@@ -3,7 +3,7 @@ import HamburgerMenuButton from "../Drawer/HamburgerMenuButton"
 import logo from "../../images/logo.svg";
 import "./Navbar.css"
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Navbar(props) {
   const [change, setChange] = useState(false);

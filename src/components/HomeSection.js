@@ -1,6 +1,6 @@
 import React from 'react';
 import LandingText from "./LandingText"
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class HomeSection extends React.Component{
   render(){
