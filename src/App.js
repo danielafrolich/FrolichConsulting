@@ -30,7 +30,7 @@ class App extends Component {
     }
 
     return (
-      <div className="app">
+      <>
         <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <Drawer show={this.state.drawerOpen}/>
         {backdrop}
@@ -39,12 +39,11 @@ class App extends Component {
           <AboutSection />
           <WorkSection />
           <ContactSection />
-          {/*
-            TODO: Footern ska inte vara i main.
-          */}
-          <footer><p>© {(new Date().getFullYear())} Frolich Consulting</p></footer>
+          <footer>
+            <p className="center-vertical">© {(new Date().getFullYear())} Frolich Consulting</p>
+          </footer>
         </main>
-      </div>
+      </>
     );
   }
 }

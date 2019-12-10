@@ -23,14 +23,14 @@ class InputForm extends React.Component{
     if(!validEmail){
       isError = true;
       errors.emailHelperText = "This is not a valid email.";
-      this.state.emailError = true;
+      this.setState({emailError: true});
     }
 
     // Check if an email is provided.
     if(this.state.email.length < 1) {
       isError = true;
       errors.emailHelperText = "An email is required.";
-      this.state.emailError = true;
+      this.setState({emailError: true});
     }
 
     if(isError){
@@ -96,15 +96,13 @@ class InputForm extends React.Component{
             id="filled-basic"
             label="Name"
             variant="filled"
-            fullWidth
-            multiline/>
+            fullWidth/>
         </div>
         <div className="mb-2 w-40">
           <TextField
             required
             type="email"
             id="filled-basic"
-            helperText="Required"
             name="email"
             value={this.state.email}
             onChange={this.handleChange.bind(this, 'email')}
@@ -113,7 +111,6 @@ class InputForm extends React.Component{
             helperText={this.state.emailHelperText}
             error={this.state.emailError}
             fullWidth
-            multiline
           />
         </div>
         <div className="mb-2">
