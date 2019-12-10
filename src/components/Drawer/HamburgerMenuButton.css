@@ -21,7 +21,7 @@
 }
 
 @media (min-width: 769px){
-  .hamburgerMenu-button{
+  nav button{
     display: none !important;
   }
 }

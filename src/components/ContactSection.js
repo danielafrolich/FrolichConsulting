@@ -8,7 +8,7 @@ class ContactSection extends React.Component{
         <div>
           <h1>Contact</h1>
           {/*TODO REMOVE WHEN DONE*/}
-          <p>Do you have a project where you need an experienced backend developer? Send me a line! All required fields are displayed in red and marked with an asterisk.</p>
+          <p>Do you have a project where you need an experienced backend developer? Send me a line! All required fields are marked with an asterisk.</p>
         </div>
           <InputForm />
       </section>

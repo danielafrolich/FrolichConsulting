@@ -26,6 +26,13 @@ function Navbar(props) {
   };
 
 
+  // Hide logo when drawer open.
+  let logoClass;
+
+  if(props.show) {
+    logoClass = 'display-none';
+  }
+
   return (
     <header className="navbar" style={bg}>
       <nav className="navbar-navigation">
@@ -33,6 +40,7 @@ function Navbar(props) {
             <HamburgerMenuButton click={props.drawerClickHandler}></HamburgerMenuButton>
           </div>
             <Link
+              className={logoClass}
               activeClass="none"
               to="home"
               spy={true}
