@@ -13,6 +13,12 @@ html{
   height: 100%;
 }
 
+
+header{
+  position: fixed;
+  z-index: 1000;
+}
+
 #root{
   height: 100%;
 }
@@ -182,8 +188,8 @@ a:hover{
 
 .bottom-aligned{
   width: 100%;
-  position: absolute;
   bottom: 20px;
+  position: absolute;
 }
 
 .flex{
