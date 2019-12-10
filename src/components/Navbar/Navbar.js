@@ -42,7 +42,7 @@ function Navbar(props) {
               tabIndex={0}
               href="/"
             >
-            <img alt="Frolich Consulting Logo" src={logo}/>
+            <img alt="Frolich Consulting" src={logo}/>
           </Link>
           <div className="navbar-navigation-items">
             <Link
