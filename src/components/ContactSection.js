@@ -4,10 +4,11 @@ import InputForm from "./InputForm"
 class ContactSection extends React.Component{
   render(){
     return(
-      <section className="contact centered-content">
+      <section className="contact centered-content" role="Contact content" aria-label="Form for contacting.">
         <div>
           <h1>Contact</h1>
-          <p>Do you have a project where you need an experienced backend developer? Send me a line!</p>
+          {/*TODO REMOVE WHEN DONE*/}
+          <p>Do you have a project where you need an experienced backend developer? Send me a line! All required fields are displayed in red and marked with an asterisk.</p>
         </div>
           <InputForm />
       </section>

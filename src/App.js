@@ -37,8 +37,8 @@ class App extends Component {
         <main>
           <HomeSection />
           <AboutSection />
-          <WorkSection />
-          <ContactSection />
+          <WorkSection role="Work content" aria-label="[The work section]"/>
+          <ContactSection role="Contact content" aria-label="[The contact section]"/>
           <footer>
             <p className="center-vertical">© {(new Date().getFullYear())} Frolich Consulting</p>
           </footer>

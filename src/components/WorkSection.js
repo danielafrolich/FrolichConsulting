@@ -11,7 +11,7 @@ import linkIcon from './../images/icon_link.svg'
 class WorkSection extends React.Component{
   render(){
     return(
-      <section className="work">
+      <section className="work" role="Work content" aria-label="Isabelle Frölich work experience.">
         <div className="centered-content">
           <h1>Work</h1>
           <p>Here is a selection of my work experience. For more details see my <a target="_blank" rel="noopener noreferrer" href={resumePdf}>resume</a>.</p>

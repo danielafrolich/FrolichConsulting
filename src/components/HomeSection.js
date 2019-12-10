@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 class HomeSection extends React.Component{
   render(){
     return(
-      <section className="home">
+      <section className="home" role="Home content" aria-label="Home content of Frolich Consulting.">
         <LandingText></LandingText>
         <div className="bottom-aligned">
           <Link

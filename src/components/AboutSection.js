@@ -10,7 +10,7 @@ import resumePdf from "./../docs/CV_DanielaFrolich_Eng.pdf";
 class LandingText extends React.Component{
   render(){
     return(
-      <section className="about centered-content">
+      <section className="about centered-content" role="About content" aria-label="Content about Isabelle Frölich.">
         <div>
           <h1>About</h1>
         </div>

@@ -23,14 +23,14 @@ class InputForm extends React.Component{
     if(!validEmail){
       isError = true;
       errors.emailHelperText = "This is not a valid email.";
-      this.setState({emailError: true});
+      this.state.emailError = true;
     }
 
     // Check if an email is provided.
     if(this.state.email.length < 1) {
       isError = true;
       errors.emailHelperText = "An email is required.";
-      this.setState({emailError: true});
+      this.state.emailError = true;
     }
 
     if(isError){
