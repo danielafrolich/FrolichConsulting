@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FrolichConsulting/static/css/main.33ec3c22.chunk.css",
-    "main.js": "/FrolichConsulting/static/js/main.9dfb1213.chunk.js",
-    "main.js.map": "/FrolichConsulting/static/js/main.9dfb1213.chunk.js.map",
+    "main.css": "/FrolichConsulting/static/css/main.2bd2ed29.chunk.css",
+    "main.js": "/FrolichConsulting/static/js/main.25b25fb3.chunk.js",
+    "main.js.map": "/FrolichConsulting/static/js/main.25b25fb3.chunk.js.map",
     "runtime-main.js": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js",
     "runtime-main.js.map": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js.map",
     "static/js/2.7ff53e15.chunk.js": "/FrolichConsulting/static/js/2.7ff53e15.chunk.js",
     "static/js/2.7ff53e15.chunk.js.map": "/FrolichConsulting/static/js/2.7ff53e15.chunk.js.map",
     "index.html": "/FrolichConsulting/index.html",
-    "precache-manifest.2b921a5df1d262fa9622c0474a1d56bd.js": "/FrolichConsulting/precache-manifest.2b921a5df1d262fa9622c0474a1d56bd.js",
+    "precache-manifest.6e8f2cddd8be0893352250db7a3d567e.js": "/FrolichConsulting/precache-manifest.6e8f2cddd8be0893352250db7a3d567e.js",
     "service-worker.js": "/FrolichConsulting/service-worker.js",
-    "static/css/main.33ec3c22.chunk.css.map": "/FrolichConsulting/static/css/main.33ec3c22.chunk.css.map",
+    "static/css/main.2bd2ed29.chunk.css.map": "/FrolichConsulting/static/css/main.2bd2ed29.chunk.css.map",
     "static/media/CV_DanielaFrolich_Eng.pdf": "/FrolichConsulting/static/media/CV_DanielaFrolich_Eng.3ce2b4eb.pdf",
     "static/media/ai.png": "/FrolichConsulting/static/media/ai.b08a8d0e.png",
     "static/media/arrow_down.svg": "/FrolichConsulting/static/media/arrow_down.1de77e29.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.eedf86b4.js",
     "static/js/2.7ff53e15.chunk.js",
-    "static/css/main.33ec3c22.chunk.css",
-    "static/js/main.9dfb1213.chunk.js"
+    "static/css/main.2bd2ed29.chunk.css",
+    "static/js/main.25b25fb3.chunk.js"
   ]
 }
