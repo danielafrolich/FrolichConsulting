@@ -1,6 +1,7 @@
 import React from 'react';
 import LandingText from "./LandingText"
-import { Link } from "react-scroll";
+import { Link } from "react-scroll"
+import arrowDown from "../images/arrow_down.svg";
 
 class HomeSection extends React.Component{
   render(){
@@ -19,6 +20,7 @@ class HomeSection extends React.Component{
           href="/"
           className="a-clean"
           >
+            <img alt="Arrow down" src={arrowDown} className="mr-05"/>
           SEE MORE
           </Link>
         </div>

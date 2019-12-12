@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 function Navbar(props) {
   const [change, setChange] = useState(false);
   // TODO Get right position.
-  const changePosition = 300;
+  const changePosition = 200;
 
   let position = useWindowScrollPosition();
 
@@ -21,7 +21,7 @@ function Navbar(props) {
   }
 
   let bg = {
-    backgroundColor: change ? "rgb(46, 46, 77, 0.85)" : "transparent",
+    backgroundColor: change ? "rgb(46, 46, 77, 1.0)" : "transparent",
     transition: "400ms ease",
   };
 

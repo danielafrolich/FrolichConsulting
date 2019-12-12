@@ -123,7 +123,11 @@ a:hover{
 
 /* HOME */ /*TODO* BYT UT BILD*/
 .home{
-  background-image: url("images/background.png");
+  background: url("images/background.png") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   text-align: center;
   margin: 0;
@@ -161,6 +165,11 @@ a:hover{
   .ml-2{
     margin-left: 0 !important;
   }
+}
+
+/* Contact */
+.contact button{
+  float: right;
 }
 
 /* Utils */
@@ -206,6 +215,9 @@ a:hover{
   display: none;
 }
 
+.mr-05{
+  margin-right: 0.5em;
+}
 
 .ml-1{
   margin-left: 1em;
