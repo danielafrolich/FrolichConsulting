@@ -34,8 +34,8 @@ function Navbar(props) {
   }
 
   return (
-    <header className="navbar" style={bg}>
-      <nav className="navbar-navigation">
+    <header className="navbar" style={bg} role="banner">
+      <nav id="navigation-desktop" className="navbar-navigation" role="navigation" aria-labelledby="navigation-desktop">
           <div className="hamburgerMenu-button">
             <HamburgerMenuButton click={props.drawerClickHandler}></HamburgerMenuButton>
           </div>

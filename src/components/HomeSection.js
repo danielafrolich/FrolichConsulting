@@ -6,7 +6,7 @@ import arrowDown from "../images/arrow_down.svg";
 class HomeSection extends React.Component{
   render(){
     return(
-      <section className="home" role="Home content" aria-label="Home content of Frolich Consulting.">
+      <section className="home" role="region" aria-labelledby="homeRegion">
         <LandingText></LandingText>
         <div className="bottom-aligned">
           <Link

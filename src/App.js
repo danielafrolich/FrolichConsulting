@@ -34,15 +34,15 @@ class App extends Component {
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} show={this.state.drawerOpen}/>
         <Drawer show={this.state.drawerOpen}/>
         {backdrop}
-        <main>
+        <main role="main">
           <HomeSection />
           <AboutSection />
-          <WorkSection role="Work content" aria-label="[The work section]"/>
-          <ContactSection role="Contact content" aria-label="[The contact section]"/>
-          <footer>
-            <p className="center-vertical">© {(new Date().getFullYear())} Frolich Consulting</p>
-          </footer>
+          <WorkSection />
+          <ContactSection />
         </main>
+        <footer role="contentinfo">
+          <p className="center-vertical">© {(new Date().getFullYear())} Frolich Consulting</p>
+        </footer>
       </>
     );
   }

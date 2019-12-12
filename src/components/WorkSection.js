@@ -11,9 +11,9 @@ import linkIcon from './../images/icon_link.svg'
 class WorkSection extends React.Component{
   render(){
     return(
-      <section className="work" role="Work content" aria-label="Isabelle Frölich work experience.">
+      <section className="work" role="region" aria-labelledby="workRegion" aria-label="Isabelle Frölich work experience.">
         <div className="centered-content">
-          <h1>Work</h1>
+          <h1  id="workRegion">Work</h1>
           <p>Here is a selection of my work experience. For more details see my <a target="_blank" rel="noopener noreferrer" href={resumePdf}>resume</a>.</p>
           <LinkCard
           cardMedia={ai}
@@ -35,17 +35,17 @@ class WorkSection extends React.Component{
           </Card>
           <Card
           cardMedia={capGemini}
-          alt="Cap Gemini"
+          alt="Capgemini"
           cardHeader="Software developer"
-          cardSubtitle="Cap Gemini"
-          cardParagraph="I started at Capgemini as a graduate in their Ignite program and graduated after 1,5 of training and courses. Thereafter I continued to work as a consultant for their clients developing my programming skills in, for example, Java and Kotlin." >
+          cardSubtitle="Capgemini"
+          cardParagraph="I started at Capgemini as a graduate in their Ignite program and graduated after 1,5 years of training and courses. Thereafter I continued to work as a consultant for their clients developing my programming skills in, for example, Java and Kotlin." >
           </Card>
           <Card
           cardMedia={volvo}
           alt="Volvo"
           cardHeader="Software developer"
           cardSubtitle="Volvo Group"
-          cardParagraph="Worked two summers at Volvo Car Group were my college and I explored and developed methods to automate the audio testing of the speakers in Volvo cars using Python. We  were able to develop three separate programs, written with Python, to help the audio testing group at Volvo with the automation of testing." >
+          cardParagraph="Worked two summers at Volvo Car Group were my colleague and I explored and developed methods to automate the audio testing of the speakers in Volvo cars using Python. We  were able to develop three separate programs, written with Python, to help the audio testing group at Volvo with the automation of testing." >
           </Card>
         </div>
       </section>

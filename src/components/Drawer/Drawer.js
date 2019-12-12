@@ -9,7 +9,7 @@ const Drawer = props => {
   }
 
   return(
-    <nav className={drawerClasses}>
+    <nav id="navigation-mobile" className={drawerClasses} role="navigation" aria-labelledby="navigation-mobile">
     <ul>
       <li>
       <Link

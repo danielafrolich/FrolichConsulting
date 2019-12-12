@@ -86,14 +86,14 @@ class InputForm extends React.Component{
 
   render(){
     return(
-      <form noValidate autoComplete="off" onSubmit={this.handleSubmit.bind(this)}>
+      <form role="form" noValidate autoComplete="off" onSubmit={this.handleSubmit.bind(this)}>
         <div className="mb-2 mt-2 w-40">
           <TextField
             type="text"
             name="name"
             value={this.state.name}
             onChange={this.handleChange.bind(this, 'name')}
-            id="filled-basic"
+            id="name"
             label="Name"
             variant="filled"
             fullWidth/>
@@ -102,7 +102,7 @@ class InputForm extends React.Component{
           <TextField
             required
             type="email"
-            id="filled-basic"
+            id="email"
             name="email"
             value={this.state.email}
             onChange={this.handleChange.bind(this, 'email')}
@@ -119,7 +119,7 @@ class InputForm extends React.Component{
             name="message"
             value={this.state.message}
             onChange={this.handleChange.bind(this, 'message')}
-            id="filled-basic"
+            id="message"
             label="Message"
             variant="filled"
             fullWidth
@@ -127,6 +127,7 @@ class InputForm extends React.Component{
           rows="8" />
         </div>
         <Button
+          name="SEND"
           className="button"
           variant="contained"
           color="primary"
