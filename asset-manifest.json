@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/FrolichConsulting/static/css/main.6a40b497.chunk.css",
-    "main.js": "/FrolichConsulting/static/js/main.c69ade7a.chunk.js",
-    "main.js.map": "/FrolichConsulting/static/js/main.c69ade7a.chunk.js.map",
+    "main.css": "/FrolichConsulting/static/css/main.33ec3c22.chunk.css",
+    "main.js": "/FrolichConsulting/static/js/main.9dfb1213.chunk.js",
+    "main.js.map": "/FrolichConsulting/static/js/main.9dfb1213.chunk.js.map",
     "runtime-main.js": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js",
     "runtime-main.js.map": "/FrolichConsulting/static/js/runtime-main.eedf86b4.js.map",
-    "static/js/2.3e335c51.chunk.js": "/FrolichConsulting/static/js/2.3e335c51.chunk.js",
-    "static/js/2.3e335c51.chunk.js.map": "/FrolichConsulting/static/js/2.3e335c51.chunk.js.map",
+    "static/js/2.7ff53e15.chunk.js": "/FrolichConsulting/static/js/2.7ff53e15.chunk.js",
+    "static/js/2.7ff53e15.chunk.js.map": "/FrolichConsulting/static/js/2.7ff53e15.chunk.js.map",
     "index.html": "/FrolichConsulting/index.html",
-    "precache-manifest.a133d394a50a54141fc7fd08660a9417.js": "/FrolichConsulting/precache-manifest.a133d394a50a54141fc7fd08660a9417.js",
+    "precache-manifest.2b921a5df1d262fa9622c0474a1d56bd.js": "/FrolichConsulting/precache-manifest.2b921a5df1d262fa9622c0474a1d56bd.js",
     "service-worker.js": "/FrolichConsulting/service-worker.js",
-    "static/css/main.6a40b497.chunk.css.map": "/FrolichConsulting/static/css/main.6a40b497.chunk.css.map",
+    "static/css/main.33ec3c22.chunk.css.map": "/FrolichConsulting/static/css/main.33ec3c22.chunk.css.map",
     "static/media/CV_DanielaFrolich_Eng.pdf": "/FrolichConsulting/static/media/CV_DanielaFrolich_Eng.3ce2b4eb.pdf",
     "static/media/ai.png": "/FrolichConsulting/static/media/ai.b08a8d0e.png",
+    "static/media/arrow_down.svg": "/FrolichConsulting/static/media/arrow_down.1de77e29.svg",
     "static/media/index.css": "/FrolichConsulting/static/media/background.1e0b19a0.png",
     "static/media/briefcase.svg": "/FrolichConsulting/static/media/briefcase.c9cb0310.svg",
     "static/media/cap_gemini.png": "/FrolichConsulting/static/media/cap_gemini.3296c030.png",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.eedf86b4.js",
-    "static/js/2.3e335c51.chunk.js",
-    "static/css/main.6a40b497.chunk.css",
-    "static/js/main.c69ade7a.chunk.js"
+    "static/js/2.7ff53e15.chunk.js",
+    "static/css/main.33ec3c22.chunk.css",
+    "static/js/main.9dfb1213.chunk.js"
   ]
 }
