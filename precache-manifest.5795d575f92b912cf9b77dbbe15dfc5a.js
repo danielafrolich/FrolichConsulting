@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4add4f8e91ab33ba12e09b0482cb1ce1",
+    "revision": "8be5c72e6d5666419e91761acad76f72",
     "url": "/FrolichConsulting/index.html"
   },
   {
-    "revision": "a5e4f24e542005080825",
-    "url": "/FrolichConsulting/static/css/main.2bd2ed29.chunk.css"
+    "revision": "58a35caadec045ebdc26",
+    "url": "/FrolichConsulting/static/css/main.14856350.chunk.css"
   },
   {
-    "revision": "f40e210dc9645649e8fc",
-    "url": "/FrolichConsulting/static/js/2.7ff53e15.chunk.js"
+    "revision": "da3e681d7336c5a09ef7",
+    "url": "/FrolichConsulting/static/js/2.929feba2.chunk.js"
   },
   {
-    "revision": "a5e4f24e542005080825",
-    "url": "/FrolichConsulting/static/js/main.25b25fb3.chunk.js"
+    "revision": "58a35caadec045ebdc26",
+    "url": "/FrolichConsulting/static/js/main.e2a654a1.chunk.js"
   },
   {
     "revision": "e02e402192e260c5e09d",
@@ -44,12 +44,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrolichConsulting/static/media/cap_gemini.3296c030.png"
   },
   {
+    "revision": "ae373110f7c5972ff9d9b0b503276985",
+    "url": "/FrolichConsulting/static/media/checked.ae373110.svg"
+  },
+  {
+    "revision": "7ecf7d96289c55772b0e3daa3b1ab830",
+    "url": "/FrolichConsulting/static/media/checked_green.7ecf7d96.svg"
+  },
+  {
     "revision": "1581aaf8efba389cb4b5b026905c0bed",
     "url": "/FrolichConsulting/static/media/code.1581aaf8.svg"
   },
   {
     "revision": "92fd111dc870841d6b28857cf936fb6b",
     "url": "/FrolichConsulting/static/media/degree.92fd111d.svg"
+  },
+  {
+    "revision": "f3852a55a51b6ece654933945743f66a",
+    "url": "/FrolichConsulting/static/media/error.f3852a55.svg"
   },
   {
     "revision": "eec16a50c740238b932eacaa7091cc02",
