@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8be5c72e6d5666419e91761acad76f72",
+    "revision": "2a038383016f55e84279872eb4c7e913",
     "url": "/FrolichConsulting/index.html"
   },
   {
-    "revision": "58a35caadec045ebdc26",
-    "url": "/FrolichConsulting/static/css/main.14856350.chunk.css"
+    "revision": "4ff3316aab818bb677e9",
+    "url": "/FrolichConsulting/static/css/main.dafc7f2d.chunk.css"
   },
   {
     "revision": "da3e681d7336c5a09ef7",
     "url": "/FrolichConsulting/static/js/2.929feba2.chunk.js"
   },
   {
-    "revision": "58a35caadec045ebdc26",
-    "url": "/FrolichConsulting/static/js/main.e2a654a1.chunk.js"
+    "revision": "4ff3316aab818bb677e9",
+    "url": "/FrolichConsulting/static/js/main.e7bbe561.chunk.js"
   },
   {
     "revision": "e02e402192e260c5e09d",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrolichConsulting/static/media/degree.92fd111d.svg"
   },
   {
-    "revision": "f3852a55a51b6ece654933945743f66a",
-    "url": "/FrolichConsulting/static/media/error.f3852a55.svg"
+    "revision": "24b68237c8474ae621556977d37583d7",
+    "url": "/FrolichConsulting/static/media/error.24b68237.svg"
   },
   {
     "revision": "eec16a50c740238b932eacaa7091cc02",
