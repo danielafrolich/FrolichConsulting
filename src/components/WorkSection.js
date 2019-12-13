@@ -48,7 +48,7 @@ class WorkSection extends React.Component{
           cardMedia={volvo}
           alt="Volvo"
           cardHeader="Software developer"
-          cardSubtitle="Volvo Group"
+          cardSubtitle="Volvo Car Group"
           cardParagraph="Worked two summers at Volvo Car Group were my colleague and I explored and developed methods to automate the audio testing of the speakers in Volvo cars using Python. We  were able to develop three separate programs, written with Python, to help the audio testing group at Volvo with the automation of testing." >
           </Card>
         </div>

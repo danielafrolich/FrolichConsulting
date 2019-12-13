@@ -41,6 +41,7 @@ function Navbar(props) {
           </div>
             <Link
               className={logoClass}
+              id="logo"
               activeClass="none"
               to="home"
               spy={true}

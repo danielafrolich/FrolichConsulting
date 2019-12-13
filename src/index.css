@@ -4,7 +4,7 @@
 body {
   margin: 0;
   height: 100%;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Karla', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -89,6 +89,7 @@ p{
   font-family: 'Karla', sans-serif !important;
   font-weight: 700;
   color: white;
+  border-radius: 30px !important;
 }
 
 /*LINKS*/
@@ -150,10 +151,6 @@ a:hover{
   background-color: #F9F9F9;
 }
 
-.contact{
-  height: 100vh;
-}
-
 /* About */
 .about .img-profile{
   height: 100%;
@@ -168,8 +165,17 @@ a:hover{
 }
 
 /* Contact */
-.contact button{
+form button{
   float: right;
+}
+
+
+.Mui-error {
+  color: #CF0F00 !important;
+}
+
+form .MuiFilledInput-underline.Mui-error:after{
+  border-bottom-color: #CF0F00 !important;
 }
 
 /* Utils */
@@ -235,8 +241,12 @@ a:hover{
   margin-bottom: 2em;
 }
 
+.mb-20{
+  margin-bottom: 20em !important;
+}
+
 .mt-2{
-  margin-top: 2em;
+  margin-top: 2em !important;
 }
 
 .w-40{

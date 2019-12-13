@@ -16,16 +16,17 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+  margin-left: -2em;
 }
 
-/*TODO: DEF BLACKS*/
 .drawer a{
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 1em 10em 1em 0.5em;
 }
 
 .drawer li{
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 .drawer.open{
@@ -35,5 +36,19 @@
 @media (min-width: 769px){
   .drawer{
     display: none;
+  }
+
+  #logo{
+    display: inline !important;
+  }
+}
+
+
+@media (max-width: 768px){
+  .active{
+    box-shadow: none;
+    background: #E1D6FF;
+    border-radius: 3px;
+    font-weight: 700;
   }
 }

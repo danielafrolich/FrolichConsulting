@@ -88,7 +88,7 @@ class InputForm extends React.Component{
         this.setState({
           introMessage: "Message received. Thanks! I'll be in touch with you shortly.",
           formClass: "display-none",
-          buttonClass: ""
+          buttonClass: "mt-2 mb-20"
         });
        }
    }
@@ -117,17 +117,19 @@ class InputForm extends React.Component{
       <>
         <div>
           <h1 id="contactRegion">Contact</h1>
-          <p>{this.state.introMessage}</p>
-          <Button
-            className={this.state.buttonClass}
-            name="SEND ANOTHER EMAIL"
-            variant="contained"
-            color="primary"
-            onClick={this.resetForm}
-          >
-          SEND ANOTHER EMAIL
-          </Button>
+          <p aria-live="polite" >{this.state.introMessage}</p>
         </div>
+        <Button
+          className={this.state.buttonClass}
+          name="SEND ANOTHER EMAIL"
+          variant="contained"
+          color="primary"
+          onClick={this.resetForm}
+          style={{borderRadius: '20px', fontFamily: "Karla",}}
+
+        >
+        SEND ANOTHER EMAIL
+        </Button>
         <form className={this.state.formClass} role="form" noValidate autoComplete="off" onSubmit={this.handleSubmit.bind(this)}>
           <div className="mb-2 mt-2 w-40">
             <TextField
@@ -183,6 +185,7 @@ class InputForm extends React.Component{
             variant="contained"
             color="primary"
             type="submit"
+            style={{borderRadius: '20px', fontFamily: "Karla",}}
           >SEND
           </Button>
         </form>
