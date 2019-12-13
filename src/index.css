@@ -150,6 +150,10 @@ a:hover{
   background-color: #F9F9F9;
 }
 
+.contact{
+  height: 100vh;
+}
+
 /* About */
 .about .img-profile{
   height: 100%;
@@ -208,7 +212,7 @@ a:hover{
 }
 
 .display-none{
-  display: none;
+  display: none !important;
 }
 
 .mr-05{

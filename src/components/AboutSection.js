@@ -11,6 +11,9 @@ class LandingText extends React.Component{
   render(){
     return(
       <section className="about centered-content" role="region" aria-labelledby="aboutRegion">
+        <div hidden>
+          <span id="new-window">Opens in a new widow</span>
+        </div>
         <div id="aboutRegion">
           <h1>About</h1>
         </div>
@@ -29,7 +32,7 @@ class LandingText extends React.Component{
             <div className="flex align-items">
               <img alt="Icon of resume" src={resume} />
               <p className="ml-1">
-              Read my <a target="_blank" rel="noopener noreferrer" href={resumePdf}>resume</a> or visit my <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/isabelle-fr%C3%B6lich-65ba02b1/">LinkedIn</a> for more details</p>
+              Read my <a target="_blank" rel="noopener noreferrer" href={resumePdf} aria-describedby="new-window">resume</a> or visit my <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/isabelle-fr%C3%B6lich-65ba02b1/" aria-describedby="new-window">LinkedIn</a> for more details</p>
             </div>
           </div>
         </div>

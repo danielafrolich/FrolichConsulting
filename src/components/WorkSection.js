@@ -12,12 +12,16 @@ class WorkSection extends React.Component{
   render(){
     return(
       <section className="work" role="region" aria-labelledby="workRegion" aria-label="Isabelle Frölich work experience.">
+        <div hidden>
+          <span id="new-window">Opens in a new widow</span>
+        </div>
         <div className="centered-content">
           <h1  id="workRegion">Work</h1>
-          <p>Here is a selection of my work experience. For more details see my <a target="_blank" rel="noopener noreferrer" href={resumePdf}>resume</a>.</p>
+          <p>Here is a selection of my work experience. For more details see my <a target="_blank" aria-describedby="new-window" rel="noopener noreferrer" href={resumePdf}>resume</a>.</p>
           <LinkCard
           cardMedia={ai}
           alt="Artificial Intelligence"
+          altLink="New window"
           cardHeader="Master Thesis in AI"
           cardSubtitle="Chalmers & Ericsson"
           cardParagraph="The thesis examined the possibility of using machine learning algorithms to predict possible overloads in a specific node in a cellular network. The thesis resulted in a proof of concept which showed that machine learning could be used to predict overloads with good results."

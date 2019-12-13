@@ -2,6 +2,11 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import * as emailjs from 'emailjs-com'
+import InputAdornment from '@material-ui/core/InputAdornment';
+import ErrorIcon from '@material-ui/icons/Error';
+import checked_green from "../images/checked_green.svg";
+import checked from "../images/checked.svg";
+import error from "../images/error.svg";
 
 class InputForm extends React.Component{
   state = {
@@ -10,6 +15,11 @@ class InputForm extends React.Component{
       emailHelperText: "Required",
       emailError: false,
       message: "",
+      trailIcon: checked,
+      trailAlt: "Required",
+      introMessage: "Do you have a project where you need an experienced backend developer? Send me a line! All required fields are marked with an asterisk.",
+      buttonClass: "display-none",
+      formClass: ""
   };
 
   validate = () => {
@@ -22,7 +32,7 @@ class InputForm extends React.Component{
 
     if(!validEmail){
       isError = true;
-      errors.emailHelperText = "This is not a valid email.";
+      errors.emailHelperText = "Please provide a valid email.";
       this.state.emailError = true;
     }
 
@@ -36,8 +46,18 @@ class InputForm extends React.Component{
     if(isError){
       this.setState({
         ...this.state,
-        ...errors
+        ...errors,
+        trailIcon: error,
+        trailAlt: "Error"
       });
+
+    }else{
+      this.setState({
+        emailHelperText: "",
+        emailError: false,
+        trailIcon: checked_green,
+        trailAlt: "Correct input"
+      })
     }
 
     return isError;
@@ -65,18 +85,26 @@ class InputForm extends React.Component{
           'user_khpTpxaiOdTzU6FliHwo2'
          )
 
-         //Clear form
-         this.resetForm()
+        this.setState({
+          introMessage: "Message received. Thanks! I'll be in touch with you shortly.",
+          formClass: "display-none",
+          buttonClass: ""
+        });
        }
    }
 
-   resetForm() {
+   resetForm = () => {
     this.setState({
       name: '',
       email: '',
       emailHelperText: 'Required',
       emailError: false,
       message: '',
+      trailIcon: checked,
+      trailAlt: "Required",
+      formClass: "",
+      introMessage: "Do you have a project where you need an experienced backend developer? Send me a line! All required fields are marked with an asterisk.",
+      buttonClass: "display-none"
     })
   }
 
@@ -86,55 +114,79 @@ class InputForm extends React.Component{
 
   render(){
     return(
-      <form role="form" noValidate autoComplete="off" onSubmit={this.handleSubmit.bind(this)}>
-        <div className="mb-2 mt-2 w-40">
+      <>
+        <div>
+          <h1 id="contactRegion">Contact</h1>
+          <p>{this.state.introMessage}</p>
+          <Button
+            className={this.state.buttonClass}
+            name="SEND ANOTHER EMAIL"
+            variant="contained"
+            color="primary"
+            onClick={this.resetForm}
+          >
+          SEND ANOTHER EMAIL
+          </Button>
+        </div>
+        <form className={this.state.formClass} role="form" noValidate autoComplete="off" onSubmit={this.handleSubmit.bind(this)}>
+          <div className="mb-2 mt-2 w-40">
+            <TextField
+              type="text"
+              name="name"
+              value={this.state.name}
+              onChange={this.handleChange.bind(this, 'name')}
+              id="name"
+              label="Name"
+              variant="filled"
+              fullWidth/>
+          </div>
+          <div className="mb-2 w-40">
+            <TextField
+              ref={(TextField) => { this.emailInput = TextField; }}
+              required
+              type="email"
+              id="email"
+              name="email"
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <img alt={this.state.trailAlt} src={this.state.trailIcon} />
+                  </InputAdornment>
+                ),
+              }}
+              onBlur={this.validate}
+              value={this.state.email}
+              onChange={this.handleChange.bind(this, 'email')}
+              label="Email"
+              variant="filled"
+              helperText={this.state.emailHelperText}
+              error={this.state.emailError}
+              fullWidth
+            />
+          </div>
+          <div className="mb-2">
           <TextField
-            type="text"
-            name="name"
-            value={this.state.name}
-            onChange={this.handleChange.bind(this, 'name')}
-            id="name"
-            label="Name"
-            variant="filled"
-            fullWidth/>
-        </div>
-        <div className="mb-2 w-40">
-          <TextField
-            required
-            type="email"
-            id="email"
-            name="email"
-            value={this.state.email}
-            onChange={this.handleChange.bind(this, 'email')}
-            label="Email"
-            variant="filled"
-            helperText={this.state.emailHelperText}
-            error={this.state.emailError}
-            fullWidth
-          />
-        </div>
-        <div className="mb-2">
-        <TextField
-            type="textarea"
-            name="message"
-            value={this.state.message}
-            onChange={this.handleChange.bind(this, 'message')}
-            id="message"
-            label="Message"
-            variant="filled"
-            fullWidth
-            multiline
-          rows="8" />
-        </div>
-        <Button
-          name="SEND"
-          className="button"
-          variant="contained"
-          color="primary"
-          type="submit"
-        >SEND
-        </Button>
-      </form>
+              type="textarea"
+              name="message"
+              value={this.state.message}
+              onChange={this.handleChange.bind(this, 'message')}
+              id="message"
+              label="Message"
+              variant="filled"
+              fullWidth
+              multiline
+            rows="8" />
+          </div>
+          <Button
+            name="SEND"
+            className="button"
+            variant="contained"
+            color="primary"
+            type="submit"
+          >SEND
+          </Button>
+        </form>
+      </>
     );
   }
 
