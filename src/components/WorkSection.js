@@ -13,7 +13,6 @@ class WorkSection extends React.Component{
     return(
       <section className="work" role="region" aria-labelledby="workRegion" aria-label="Isabelle Frölich work experience.">
         <div className="centered-content">
-          <h1>Work</h1>
           <h1 id="workRegion">Work</h1>
           <p>Here is a selection of my work experience. For more details see my <a target="_blank" rel="noopener noreferrer" href={resumePdf}>resume</a>.</p>
           <LinkCard
@@ -49,6 +48,9 @@ class WorkSection extends React.Component{
           cardSubtitle="Volvo Group"
           cardParagraph="Worked two summers at Volvo Car Group were my college and I explored and developed methods to automate the audio testing of the speakers in Volvo cars using Python. We  were able to develop three separate programs, written with Python, to help the audio testing group at Volvo with the automation of testing." >
           </Card>
+        </div>
+        <div hidden>
+          <span id="new-window">Opens in a new widow</span>
         </div>
       </section>
     );
