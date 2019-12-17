@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d9b54fa28783e440c6501ff096aa295",
+    "revision": "5b4477b9df82e5cfbd7b475a30e79326",
     "url": "/FrolichConsulting/index.html"
   },
   {
-    "revision": "f5106d446b14a284925f",
+    "revision": "855f8466749939077c80",
     "url": "/FrolichConsulting/static/css/main.dafc7f2d.chunk.css"
   },
   {
-    "revision": "da3e681d7336c5a09ef7",
-    "url": "/FrolichConsulting/static/js/2.929feba2.chunk.js"
+    "revision": "017b2b3014bf7cb1e607",
+    "url": "/FrolichConsulting/static/js/2.783fcd78.chunk.js"
   },
   {
-    "revision": "f5106d446b14a284925f",
-    "url": "/FrolichConsulting/static/js/main.4e6d57e9.chunk.js"
+    "revision": "855f8466749939077c80",
+    "url": "/FrolichConsulting/static/js/main.8f0c634b.chunk.js"
   },
   {
     "revision": "e02e402192e260c5e09d",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrolichConsulting/static/media/cap_gemini.3296c030.png"
   },
   {
-    "revision": "ae373110f7c5972ff9d9b0b503276985",
-    "url": "/FrolichConsulting/static/media/checked.ae373110.svg"
+    "revision": "81bc24a563fede0e0e4bcd18a216d1fc",
+    "url": "/FrolichConsulting/static/media/checked.81bc24a5.svg"
   },
   {
-    "revision": "7ecf7d96289c55772b0e3daa3b1ab830",
-    "url": "/FrolichConsulting/static/media/checked_green.7ecf7d96.svg"
+    "revision": "e40af200e5322060a3ea1d48fa834305",
+    "url": "/FrolichConsulting/static/media/checked_green.e40af200.svg"
   },
   {
     "revision": "1581aaf8efba389cb4b5b026905c0bed",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrolichConsulting/static/media/degree.92fd111d.svg"
   },
   {
-    "revision": "24b68237c8474ae621556977d37583d7",
-    "url": "/FrolichConsulting/static/media/error.24b68237.svg"
+    "revision": "8410f3790153fcd9ee71c1f1be4641e9",
+    "url": "/FrolichConsulting/static/media/error.8410f379.svg"
   },
   {
     "revision": "eec16a50c740238b932eacaa7091cc02",
