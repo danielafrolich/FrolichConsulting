@@ -31,7 +31,7 @@ class WorkSection extends React.Component{
           alt="Telia"
           cardHeader="Software developer"
           cardSubtitle="Telia"
-          cardParagraph="Started at Telia 2018 as a backend developer working with their aggregated streaming service. Here I learned to work with microservices that uses a wide variety of technologies and frameworks to optimize performance. I also gained 2 more years experience with programming in Kotlin and Java."
+          cardParagraph="Started at Telia 2018 as a backend developer working with their aggregated streaming service. Here I learned to work with microservices that uses a wide variety of technologies and frameworks to optimize performance. I also gained 2 more years experience with programming in Kotlin and Java.">
           </Card>
           <Card
           cardMedia={capGemini}
@@ -39,7 +39,7 @@ class WorkSection extends React.Component{
           alt="Capgemini"
           cardHeader="Software developer"
           cardSubtitle="Cap Gemini"
-          cardParagraph="I started at Capgemini as a graduate in their Ignite program and graduated after 1,5 of training and courses. Thereafter I continued to work as a consultant for their clients developing my programming skills in, for example, Java and Kotlin." >
+          cardParagraph="I started at Capgemini as a graduate in their Ignite program and graduated after 1,5 of training and courses. Thereafter I continued to work as a consultant for their clients developing my programming skills in, for example, Java and Kotlin.">
           </Card>
           <Card
           cardMedia={volvo}
