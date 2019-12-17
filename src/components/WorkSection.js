@@ -31,7 +31,7 @@ class WorkSection extends React.Component{
           alt="Telia"
           cardHeader="Software developer"
           cardSubtitle="Telia"
-          cardParagraph="Lorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum blaLorem ipsum bla." >
+          cardParagraph="Started at Telia 2018 as a backend developer working with their aggregated streaming service. Here I learned to work with microservices that uses a wide variety of technologies and frameworks to optimize performance. I also gained 2 more years experience with programming in Kotlin and Java."
           </Card>
           <Card
           cardMedia={capGemini}
