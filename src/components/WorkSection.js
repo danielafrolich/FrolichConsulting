@@ -35,10 +35,10 @@ class WorkSection extends React.Component{
           </Card>
           <Card
           cardMedia={capGemini}
-          alt="Cap Gemini"
+          alt="Capgemini"
           alt="Capgemini"
           cardHeader="Software developer"
-          cardSubtitle="Cap Gemini"
+          cardSubtitle="Capgemini"
           cardParagraph="I started at Capgemini as a graduate in their Ignite program and graduated after 1,5 of training and courses. Thereafter I continued to work as a consultant for their clients developing my programming skills in, for example, Java and Kotlin.">
           </Card>
           <Card

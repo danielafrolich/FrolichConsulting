@@ -49,6 +49,7 @@
     box-shadow: none;
     background: #E1D6FF;
     border-radius: 3px;
+    max-width: 290px;
     font-weight: 700;
   }
 }
