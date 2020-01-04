@@ -18,6 +18,7 @@ class WorkSection extends React.Component{
           <LinkCard
           cardMedia={ai}
           alt="Artificial Intelligence"
+          altLink="Link"
           cardHeader="Master Thesis in AI"
           cardSubtitle="Chalmers & Ericsson"
           cardParagraph="The thesis examined the possibility of using machine learning algorithms to predict possible overloads in a specific node in a cellular network. The thesis resulted in a proof of concept which showed that machine learning could be used to predict overloads with good results."
